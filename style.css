@@ -1,0 +1,77 @@
+
+/* AGREGADO POR OMAR PARA GOOGLEMAPS */
+
+/* Googlemaps */
+#mapa {margin: 0 auto;height: 890px;}
+#vinia {margin: 0 auto;height: 400px;}
+#todd {margin: 0 auto;height: 400px;}
+#g-map-canvas {margin: 0 auto;height: 600px;}
+
+
+.g-goto {border-top: 1px solid #ababab; padding-top: 0.5em;}
+.g-label {display: block; font-weight: bold; padding: 0.5em 0;}
+.g-input {border: 1px solid #ababab; padding: 0.1em;}
+.g-button {background-color: #ababab; border: 1px solid #414141; font-weight: bold;}
+.g-help {color: #6261d8; padding:0.25em 0 0 0;}
+/*#geo-form-button {float: left;}*/
+#infowindow p {margin-bottom: 0;}
+.infowindow-title {font-size: 1.2em;}
+
+/* Conversor */
+#gps-dms-to-dec {margin: 3em 0;}
+	#gps-dms-to-dec fieldset {margin-bottom: 0.5em; padding: 0.3em 0;}
+		#gps-dms-to-dec fieldset p {margin: 0;}
+	#gps-dms-to-dec label {display: inline; margin-right: 20px;}
+	#gps-dms-to-dec legend {border: 0;}
+	#gps-dms-to-dec .inputbox {vertical-align: top; width: 40px;}
+		#gps-dms-to-dec select.inputbox {padding-right: 0; width: 50px;}
+.gps-converted {overflow: hidden; padding: 1.75em 0 0 26px;}
+	.gps-converted p {background: transparent url("../images/arrow.png") 6px 5px no-repeat; margin: 0 0 3em 0; padding: 5px 0 5px 58px;}
+		.gps-converted p strong {background: transparent url("../images/tl.jpg") left top; border-radius: 3px; padding: 5px 1em;}
+
+
+
+
+.gooMap {
+position: relative;
+padding-bottom: 50%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+
+.gooMap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+.gooMap #g-map-canvas {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+.gooMapForm {
+margin-top: 10px;
+background: #ddd;
+border: 1px solid #ccc;
+height: 1.8rem;
+width: 18rem;
+box-shadow: 2 2 4px rgba(0,0,0,.3);
+}
+
+.gooDireccion{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.gooDireccionInput{
+	width: 18rem;
+}
+
+

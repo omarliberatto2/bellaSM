@@ -1,0 +1,15 @@
+﻿Hola,
+
+Un nuevo ticket de soporte te ha sido asignado. Detalles del ticket:
+
+Asunto del ticket: %%SUBJECT%%
+ID de seguimiento: %%TRACK_ID%%
+
+Puedes gestionar este ticket aqui:
+%%TRACK_URL%%
+
+
+Atentamente
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,156 @@
+@font-face{font-family:"AdventPro";src:url("css/AdventPro-Light.ttf"),url("css/AdventPro-Light.eot") format("embedded-opentype"),url("css/AdventPro-Light.woff") format("woff"),url("css/AdventPro-Light.ttf") format("truetype"),url("css/AdventPro-Light.svg#IDdelafuente") format("svg")}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,center,u,b,i{font-family:AdventPro;font-size:1.05rem}
+body{background-color:#f3fef4}
+.pc{display:none}
+.celular{display:block}
+.bold{font-weight:bolder}
+#logoMuni,#textoBienvenida,#logoBella,#logoTodd,#ghost-button,#logoHeidon,#textoVersionLanding{z-index:50}
+#textoVersion-lg{display:none}
+#textoVersion-md{display:block}
+.main-footer{padding-bottom:3rem}
+.heidonFooter,.heidonFooter a,.heidonFooter a:active,.heidonFooter a:hover{font-size:.8rem}
+input .input-md{margin:2rem}
+.ghost-button{color:#fff;background:0;border:1px solid #fff;font-size:24px;margin:.5rem;padding:.5rem 2rem;font-weight:normal;display:inline-block;text-decoration:none;font-family:"AdventPro";min-width:8rem;text-transform:uppercase;display:inline-block;z-index:9999}
+.ghost-button:hover,.ghost-button:active{color:#fff;background:0;text-decoration:none;opacity:.8}
+.textoBienvenida,.textoVersionLanding,.textoVersionLanding a,.textoVersionLanding a:active,.textoVersionLanding a:hover{color:#fff}
+.textoBienvenida{font-size:1.5rem}
+.textoVersionLanding{font-size:1.5rem}
+.textoVersion,.textoVersion a,.textoVersion a:active,.textoVersion a:hover{font-size:.8rem}
+.reportes-perso{display:none}
+.reportes-pre{display:block}
+.foto-perfil-manage-users{vertical-align:text-bottom;border-radius:50%}
+#radioBtn .notActive{color:#3276b1;background-color:#fff}
+#header{text-align:center;padding-top:0;padding-bottom:0;min-height:auto;z-index:2;position:relative}
+@media only screen and (max-width:768px){.prx-b{position:static !important}
+}
+#fondoCel{display:none}
+.icono-widget-tamanio{font-size:3rem;margin-top:1rem !important}
+@media(max-width:768px){html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,center,u,b,i{font-family:AdventPro;font-size:.9rem}
+body{background-color:#003557}
+.pc{display:none}
+.celular{display:block}
+#fondoCel{display:block;z-index:-10}
+#slider{display:none}
+#logoMuni{width:15rem}
+.textoBienvenida{font-size:.8rem}
+#logoBella,#logoTodd{padding-top:4rem;padding-bottom:4rem;width:8rem}
+#ghost-button{font-size:1rem}
+#logoHeidon{padding-top:3.5rem;width:12rem}
+.textoVersion,.textoVersionLanding a,.textoVersionLanding a:hover,.textoVersionLanding a:active{font-size:.55rem}
+.textoVersion,.textoVersion a,.textoVersion a:active,.textoVersion a:hover{font-size:.6rem}
+}
+@media(min-width:768px) and (max-width:992px){h3{font-size:19px}
+h5{font-size:10px}
+body{background-color:#f3fef4}
+.pc{display:block}
+.celular{display:none}
+#logoMuni{width:25rem}
+.textoBienvenida{font-size:1.2rem}
+#logoBella,#logoTodd{padding-top:1rem;padding-bottom:2em;width:8rem}
+#ghost-button{font-size:1rem}
+#logoHeidon{padding-top:2rem;width:12rem}
+.textoVersionLanding{font-size:1rem}
+.textoVersion,.textoVersion a,.textoVersion a:active,.textoVersion a:hover{font-size:1rem}
+}
+@media(min-width:992px) and (max-width:1200px){h3{font-size:22px;font-weight:900}
+body{background-color:#f3fef4}
+.pc{display:block}
+.celular{display:none}
+#logoMuni{width:25rem}
+.textoBienvenida{font-size:1.2rem}
+#logoBella,#logoTodd{padding-top:3rem;padding-bottom:4em;width:12rem}
+#ghost-button{font-size:1.7rem}
+#logoHeidon{padding-top:4rem;width:14rem}
+.textoVersionLanding{font-size:1rem}
+#textoVersion-lg{display:block}
+#textoVersion-md{display:none}
+}
+@media(min-width:1205px){h3{font-weight:900}
+body{background-color:#f3fef4}
+.pc{display:block}
+.celular{display:none}
+#logoMuni{width:30rem}
+.textoBienvenida{font-size:2rem}
+#logoBella,#logoTodd{padding-top:5rem;padding-bottom:7em;width:12rem}
+#ghost-button{font-size:1.7rem}
+#logoHeidon{padding-top:7rem;width:14rem}
+.textoVersionLanding{font-size:1rem}
+#textoVersion-lg{display:block}
+#textoVersion-md{display:none}
+}
+#arrecifes{margin:0 auto;height:890px}
+#vinia{margin:0 auto;height:400px}
+#todd{margin:0 auto;height:400px}
+#g-map-canvas{margin:0 auto;height:500px}
+.g-goto{border-top:1px solid #ababab;padding-top:.5em}
+.g-label{display:block;font-weight:bold;padding:.5em 0}
+.g-input{border:1px solid #ababab;padding:.1em}
+.g-button{background-color:#ababab;border:1px solid #414141;font-weight:bold}
+.g-help{color:#6261d8;padding:.25em 0 0 0}
+#infowindow p{margin-bottom:0}
+.infowindow-title{font-size:1.2em}
+#gps-dms-to-dec{margin:3em 0}
+#gps-dms-to-dec fieldset{margin-bottom:.5em;padding:.3em 0}
+#gps-dms-to-dec fieldset p{margin:0}
+#gps-dms-to-dec label{display:inline;margin-right:20px}
+#gps-dms-to-dec legend{border:0}
+#gps-dms-to-dec .inputbox{vertical-align:top;width:40px}
+#gps-dms-to-dec select.inputbox{padding-right:0;width:50px}
+.gps-converted{overflow:hidden;padding:1.75em 0 0 26px}
+.gps-converted p{background:transparent url("../images/arrow.png") 6px 5px no-repeat;margin:0 0 3em 0;padding:5px 0 5px 58px}
+.gps-converted p strong{background:transparent url("../images/tl.jpg") left top;border-radius:3px;padding:5px 1em}
+.gooMap{position:relative;padding-bottom:75%;// This is the aspect ratio height:0;overflow:hidden}
+.gooMap iframe{position:absolute;top:0;left:0;width:100% !important;height:100% !important}
+.gooMap #g-map-canvas{position:absolute;top:0;left:0;width:100% !important;height:100% !important}
+.gooMapForm{margin-top:10px;background:#ddd;border:1px solid #ccc;height:1.8rem;width:18rem;box-shadow:2 2 4px rgba(0,0,0,.3)}
+.gooDireccion{font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:12px;padding:5px}
+.gooDireccionInput{width:18rem}
+img{max-width:100%}
+a{-webkit-transition:all 150ms ease;-moz-transition:all 150ms ease;-ms-transition:all 150ms ease;-o-transition:all 150ms ease;transition:all 150ms ease}
+a:hover{-ms-filter:"alpha(opacity=50)";filter:alpha(opacity=50);opacity:.6;text-decoration:none}
+.thumbnails li>.fff .caption{background:#fff !important;padding:10px}
+ul.thumbnails{margin-bottom:0}
+.caption h4{color:#444}
+.caption p{color:#999}
+.carousel-inner .active.left{left:-16.7%}
+.carousel-inner .next{left:16.7%}
+.carousel-inner .prev{left:-16.7%}
+.carousel-control.left,.carousel-control.right{background-image:none}
+.item:not(.prev){visibility:visible}
+.item.right:not(.prev){visibility:hidden}
+.rightest{visibility:visible}
+@media(max-width:767px){.page-header,.control-box{text-align:center}
+}
+@media(max-width:479px){.caption{word-break:break-all}
+}
+li{list-style-type:none}
+::selection{background:#ff5e99;color:#fff;text-shadow:0}
+::-moz-selection{background:#ff5e99;color:#fff}
+.fondo-caja{background-color:#3c8dbc;border-radius:1rem;padding-bottom:1rem}
+.full-width{float:left;width:100%;margin-top:30px;min-height:100px;position:relative}
+.form-style-fake{position:absolute;top:0}
+.form-style-base{position:absolute;top:0;z-index:999;opacity:0}
+.imgCircle{width:10rem;height:10rem;border-radius:50%}
+.form-control-perfiles{padding:10px 50px}
+.form-input{height:50px;border-radius:0;margin-top:20px}
+.Profile-input-file{height:180px;width:180px;left:33%;position:absolute;top:0;z-index:999;opacity:0 !important}
+.mg-auto{margin:0 auto;max-width:200px;overflow:hidden}
+.fake-styled-btn{background:#006cad;padding:10px;color:#fff}
+#main-input{width:250px}
+.input-place{position:absolute;top:35px;left:20px;font-size:23px;color:gray}
+.margin{margin-top:10px;margin-bottom:10px}
+.truncate{width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bg-form{float:left;width:100%;position:relative;background-color:#0f5784;background-repeat:no-repeat;background-size:cover;margin-top:0;border-radius:1rem}
+.bg-transparent{background:rgba(0,0,0,0.1);float:left;width:100%;margin-top:0}
+.custom-form{float:left;width:100%;border-radius:1rem;box-shadow:0 0 1rem #fff;overflow:hidden;background:rgba(255,255,255,0.6)}
+.img-section{float:left;width:100%;padding-top:15px;padding-bottom:15px;position:relative;color:#fff}
+#PicUpload{color:#fff;width:8rem;height:8rem;background:rgba(255,255,255,0.4);padding:100px;position:absolute;left:38%;border-radius:50%;display:none;top:5px}
+.camera{font-size:50px;color:#333}
+.custom-btn{margin-top:15px;border-radius:0;padding:10px 60px;margin-bottom:15px}
+#checker{opacity:0;position:absolute;top:0;cursor:pointer}
+.color{color:#fff}
+.form-control-perfiles::-webkit-input-placeholder{color:lightgray;font-size:18px}
+.form-control-perfiles:-moz-placeholder{color:lightgray;font-size:18px}
+.form-control-perfiles::-moz-placeholder{color:lightgray;font-size:18px}
+.form-control-perfiles:-ms-input-placeholder{color:lightgray;font-size:18px}

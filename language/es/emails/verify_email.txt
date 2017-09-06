@@ -1,0 +1,10 @@
+Estimado %%NAME%%,
+
+Su correo electronico necesita ser verificado antes de que su ticket se pueda enviar. Haga clic en el enlace de abajo para verificar su correo electronico.
+
+%%VERIFYURL%%
+
+Atentamente,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

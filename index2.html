@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<meta http-equiv=”Pragma” content=”no-cache”>
+<meta http-equiv=”Expires” content=”-1″>
+<meta http-equiv=”CACHE-CONTROL” content=”NO-CACHE”>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<title>BELLA - Smartcities</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="background: url('img/helpdesk.jpg');background-size: cover;background-repeat: no-repeat;background-position: center;">
+		<div class="container-fluid prx-b" id="header">
+			<header class="header">
+
+				<div class="row">
+							<!-- Carga logo de la Muni -->
+							<div class="col-lg-12">
+								<div id="logoMuni" class="logoMuni center-block">
+									<img src="imagenes/logoMuni_500x205.png" class="img-responsive center-block" />
+								</div>
+							</div>
+							<!-- /.Carga logo de la Muni -->
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="textoBienvenida" class="text-center textoBienvenida text-nowrap" >
+							Bienvenido al Sistema Bella de Gestión de Incidentes<br />Módulo Municipalidad de Arrecifes
+						</div>
+					</div>
+				 </div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="logoBella center-block">
+							<img id="logoBella" src="imagenes/logoBella300x131.png" />
+						</div>
+					</div>
+				</div>
+			</header>
+			<content class="content">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-info btn-lg ghost-button" data-toggle="modal" data-target="#myModalLogin">&nbsp;Ingresar al Sistema</button>
+					</div>
+				</div>
+			</content>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="logoHeidon" class="logoHeidon center-block">
+							<img src="imagenes/qubelaLogoBlanco431x92.svg" class="img-responsive center-block" />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="textoVersion" class="text-center textoBienvenida text-nowrap" >
+									<h5>Sistema de Soporte a Usuarios | Sistema Bella V1.15 | Modulo para Municipalidad de Arrecifes<br />
+										Todos los derechos Reservados por QubeLa© | Sistema Gestión QubeLa®<br />
+										Consultas y Soporte sobre actualizaciones y Servicios de Mejoras | <a href="mailto:ayuda@qube.la">ayuda@qube.la</a><br />
+										<a href="http://qube.la">qube.la</a></h5>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<div id="footer" class="text-center">
+			Sistema de Soporte para clientes<br />Todos los derechos y propiedad intelectual son exclusivos de <a href="http://qube.la" style="color:#eee;"><img src="img/logos/qubelaLogoChiquito.svg"></a><br />Para más información: <a href="mailto:soporte@qube.la" style="color:#eee;">soporte@qube.la</a>
+		</div>
+
+
+
+
+
+
+		<!-- ModalLOGIN CONTRIBUYENTES -->
+		<div class="modal fade" id="myModalLogin" role="dialog">
+			<div id="login-overlay" class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="myModalLabel">Ingreso al Sistema de Incidentes | Arrecifes Ayuda  </h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-sm-12 col-xs-12">
+								<div class="well">
+									<form class="form-signin form-horizontal" role="form" action="php/login.php" method="post" name="form1">
+									<div class="form-group">
+											<label for="username" class="control-label">Nombre de Usuario</label>
+											<input type="text" class="form-control" id="username" name="username" value="" required="" title="Ingrese su nombre de usuario" placeholder="Juan" />
+											<span class="help-block"></span>
+										</div>
+										<div class="form-group">
+											<label for="password" class="control-label">Password</label>
+											<input type="password" class="form-control" id="password" name="password" value="" required="" title="Ingrese su contraseña" />
+											<span class="help-block"></span>
+										</div>
+										<input type="hidden" name="a" value="do_login" />
+										<button type="submit" class="btn btn-success btn-block bold">Ingresar</button>
+										<br />
+										<a href="#myModalRegister" role="button" class="btn btn-info btn-block bold" data-toggle="modal">Registrarse</a>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+  	<!-- Modal Register -->
+  	<div class="modal fade" id="myModalRegister" role="dialog">
+		<div id="login-overlay" class="modal-dialog modal-lg">
+		  	<div class="modal-content">
+				<div class="modal-header" >
+			  		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="myModalLabel">Registro de Nuevos Usuarios | Arrecifes Ayuda</h4>
+				</div>
+				<form class="form-horizontal" action="enviarMail.php" method="post" role="form" enctype="multipart/form-data">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1">
+						<div class="form-group">
+							<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="text" name="name" id="name" class="form-control input-md" placeholder="Nombre y Apellido" tabindex="1" required />
+						  	</div>
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="email" name="email" id="email" class="form-control input-md" placeholder="Dirección de mail" tabindex="2" required />
+						  	</div>
+						</div>
+						<div class="form-group">
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="number" name="dni" id="dni" class="form-control input-md" placeholder="DNI" tabindex="3" required />
+						  	</div>
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="text" name="tel" id="tel" class="form-control input-md" placeholder="Teléfono" tabindex="4" required />
+						  	</div>
+						</div>
+						<div class="form-group">
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="text" name="direccion" id="direccion" class="form-control input-md" placeholder="Dirección (calle y nro.)" tabindex="5" required />
+						  	</div>
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<input type="text" name="cel" id="cel" class="form-control input-md" placeholder="Celular" tabindex="6" required />
+						  	</div>
+						</div>
+						<div class="form-group">
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+								<select class="form-control" name="barrio" id="barrio" class="form-control input-md" placeholder="Barrio" tabindex="7">
+								  	<option>Seleccione su barrio</option>
+								  	<option>San Agustín</option>
+								  	<option>Alberdi</option>
+								  	<option>Arquitectura</option>
+								  	<option>Secundino Arriola</option>
+								  	<option>Banco Hipotecario</option>
+								  	<option>Banco Provincia</option>
+								  	<option>Belgrano</option>
+								  	<option>Centro</option>
+								  	<option>Doña Clementina</option>
+								  	<option>Colmicnac</option>
+								  	<option>La Cumbre</option>
+								  	<option>Diogge</option>
+								  	<option>Esfuerzo Propio</option>
+								  	<option>Villa Esperanza</option>
+								  	<option>San Esteban</option>
+								  	<option>José Fernandez - Barrio Bomberos Voluntarios</option>
+								  	<option>Las Flores</option>
+								  	<option>F.O.N.A.V.I</option>
+								  	<option>F.O.P.R.O.V.I</option>
+								  	<option>Malvinas Argentinas</option>
+								  	<option>Madres Solteras</option>
+								  	<option>25 de Mayo</option>
+								  	<option>Municipales</option>
+								  	<option>Palermo</option>
+								  	<option>El Palmar</option>
+								  	<option>Eva Perón</option>
+								  	<option>Plan Familia Propietaria</option>
+								  	<option>Saavedra</option>
+								  	<option>Villa Sanguinetti</option>
+								  	<option>San Martín</option>
+								  	<option>Santalina</option>
+								  	<option>Santa Teresita</option>
+								  	<option>Alberdi</option>
+								  	<option>Arquitectura</option>
+								  	<option>Secundino Arriola</option>
+								</select>
+						 	</div>
+						  	<div class="col-xs-12 col-sm-6 col-md-6">
+							<input type="text" name="ws" id="ws" class="form-control input-md" placeholder="Whatsapp" tabindex="8" />
+						  	</div>
+						</div>
+    					<div class="form-group">
+							<label class="col-sm-4 col-md-1 control-label text-left">¿Trabaja?</label>
+							<div class="col-sm-7 col-md-3 col-md-offset-1 text-left">
+							  	<div class="input-group">
+									<div id="radioBtn" class="btn-group">
+										<div class="radio"><label><input type="radio" name="trabajo" value="1" checked="checked" tabindex="9" /> Si&nbsp;&nbsp;&nbsp;</label>
+                        					<label><input type="radio" name="trabajo" value="0" /> No </label>
+                        				</div>
+								  	</div>
+							  	</div>
+							</div>
+							<label class="col-sm-4 col-md-4 control-label text-left">Es contribuyente al día?</label>
+							<div class="col-sm-7 col-md-2 text-left">
+							  	<div class="input-group">
+									<div id="radioBtn" class="btn-group">
+										<div class="radio"><label><input type="radio" name="contribuyo" value="1" checked="checked" tabindex="10" /> Si&nbsp;&nbsp;&nbsp;</label>
+                        					<label><input type="radio" name="contribuyo" value="0" /> No </label>
+                        				</div>
+								  	</div>
+							  	</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-xs-12 col-md-6">
+								<input type="submit" id="submit" name="submit" value="Registrarse" class="btn btn-primary btn-block bold" tabindex="11" />
+								<input type="hidden" name="contribuyente" value="1" />
+								<input type="hidden" name="accion" value="registrar" />
+							</div>
+							<div class="col-xs-12 col-md-6">
+								<button type="button" class="btn btn-success btn-block bold" data-dismiss="modal">Cancelar</button>
+							</div>
+					  	</div>
+					</div>
+					<div class="form-group">
+				  	</div>
+				</form>
+		  	</div>
+		</div>
+	</div>
+  	<!-- /.Modal Register -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 <script type="text/javascript">
+
+
+$('#myModalRegister').on('show', function() {
+	$('#myModalLogin').css('opacity', .5);
+	$('#myModalLogin').unbind();
+});
+$('#myModalRegister').on('hidden', function() {
+	$('#myModalLogin').css('opacity', 1);
+	$('#myModalLogin').removeData("modal").modal({});
+});
+
+	 </script>
+
+		<script src="js/valida_login.js"></script>
+	</body>
+</html>

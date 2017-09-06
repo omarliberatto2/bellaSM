@@ -1,0 +1,14 @@
+Estimada/o %%NAME%%,
+
+Su ticket de soporte "%%SUBJECT%%" ha sido actualizada al estado Cerrado/Resuelto.
+
+ID de seguimiento: %%TRACK_ID%%
+
+Puede ver el estado de su ticket aqui:
+%%TRACK_URL%%
+
+
+Atentamente,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

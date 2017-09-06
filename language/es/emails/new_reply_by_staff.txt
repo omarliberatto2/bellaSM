@@ -1,0 +1,12 @@
+﻿Hola, %%NAME%%,
+
+Nuestro personal ha respondido a tu ticket "%%SUBJECT%%".
+
+Puedes gestionar tu ticket aqui:
+%%TRACK_URL%%
+
+
+Atentamente,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

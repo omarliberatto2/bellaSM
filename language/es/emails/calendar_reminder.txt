@@ -1,0 +1,7 @@
+Un evento se acerca pronto!
+----
+Titulo: %%TITLE%%
+Ubicacion: %%LOCATION%%
+Categoria: %%CATEGORY%%
+Cuando: %%WHEN%%
+Comentarios: %%COMMENTS%%

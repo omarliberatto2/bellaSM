@@ -1,0 +1,17 @@
+Hola,
+
+Una nota nueva se ha añadido al ticket "%%SUBJECT%%"
+
+Nota por %%NAME%%:
+
+%%MESSAGE%%
+
+
+Puedes administrar este ticket aqui:
+%%TRACK_URL%%
+
+
+Saludos,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

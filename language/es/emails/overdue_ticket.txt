@@ -1,0 +1,17 @@
+Hola,
+
+Un ticket esta atrasado! Detalles del ticket:
+
+Asunto del Ticket: %%SUBJECT%%
+ID de seguimiento: %%TRACK_ID%%
+
+Puedes administrar este ticket aqui:
+%%TRACK_URL%%
+
+
+Saludos,
+
+%%SITE_TITLE%%
+%%SITE_URL%%
+
+%%MESSAGE%%

@@ -1,0 +1,18 @@
+Hola, %%NAME%%,
+
+Tu ticket de soporte "%%SUBJECT%%" ha sido recibido.
+
+Respondemos a todos los tickets lo antes posible. Si tu ticket nos llevara algun tiempo adicional, te informaremos por medio de un correo electronico.
+
+ID de seguimiento: %%TRACK_ID%%
+
+Puedes gestionar tu ticket aqui:
+%%TRACK_URL%%
+
+Recibiras un e-mail de notificacion cuando nuestro personal responda a tu consulta de soporte.
+
+
+Atentamente,
+
+%%SITE_TITLE%%
+%%SITE_URL%%
